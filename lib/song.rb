@@ -30,7 +30,8 @@ class Song
   
   def self.artists
     counter = 0
-    @@artists.collect do |artist, compare|
+    return_array = []
+    @@artists.each do |artist
       binding.pry
     end
   end
