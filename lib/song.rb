@@ -31,7 +31,8 @@ class Song
   def self.artists
     counter = 0
     return_array = []
-    @@artists.each do |artist
+    @@artists.each do |artist|
+      counter += 1
       binding.pry
     end
   end
