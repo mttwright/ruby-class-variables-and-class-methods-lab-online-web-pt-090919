@@ -37,6 +37,7 @@ class Song
         return_array.push(artist)
       end
     end
+    return_array
   end
   
   def self.genre_count
