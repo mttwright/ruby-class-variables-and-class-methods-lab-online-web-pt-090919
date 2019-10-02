@@ -27,7 +27,7 @@ class Song
   def self.genres
     counter = 0
     return_array = []
-    @@ge.each do |artist|
+    @@genres.each do |artist|
       counter += 1
       unless artist == @@artists[counter]
         return_array.push(artist)
