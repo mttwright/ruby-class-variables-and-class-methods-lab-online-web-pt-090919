@@ -33,7 +33,9 @@ class Song
     return_array = []
     @@artists.each do |artist|
       counter += 1
-      binding.pry
+      unless artist == @@artists[counter]
+        return_array.push(artist)
+      end
     end
   end
   
