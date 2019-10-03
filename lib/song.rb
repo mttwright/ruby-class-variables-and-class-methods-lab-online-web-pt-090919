@@ -27,10 +27,10 @@ class Song
   def self.genres
     counter = 0
     return_array = []
-    @@genres.each do |artist|
+    @@genres.each do |genre|
       counter += 1
-      unless artist == @@artists[counter]
-        return_array.push(artist)
+      unless genre == @@genres[counter]
+        return_array.push(genre)
       end
     end
     return_array
